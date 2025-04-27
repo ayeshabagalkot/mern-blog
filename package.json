@@ -1,5 +1,22 @@
 {
   "dependencies": {
-    "flowbite-react": "^0.7.0"
-  }
+    "express": "^5.1.0",
+    "flowbite-react": "^0.7.0",
+    "nodemon": "^3.1.10"
+  },
+  "name": "mern-blog",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "devDependencies": {
+    "coffee-script": "^1.12.7"
+  },
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
